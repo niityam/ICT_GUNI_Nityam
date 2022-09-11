@@ -6,13 +6,12 @@ public class Reverse {
         this.str = s;
     }
     void reverse(){
-        int tempi=0, tempj=0;     
+        int tempj=0;     
         for(int i=0; i<str.length(); i++){
             if(str.charAt(i) == ' ' || i == str.length()-1){
-                for(int j=i-1; j>=tempj; j--){
+                for(int j=i; j>=tempj; j--){
                     System.out.print(str.charAt(j));
                 }
-                System.out.print(" ");
                 tempj = i+1;
             }
         }
