@@ -1,4 +1,3 @@
-import java.io.*;
 class parent{
     void methodparent(){
         System.out.println("This is parent class");
