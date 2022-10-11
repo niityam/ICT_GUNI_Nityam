@@ -1,0 +1,45 @@
+-- practical 1
+
+
+create database tbl1;
+use tbl1;
+
+create table Department(dept_id varchar(4) primary key check (dept_id like 'D%'), DepartmentName varchar(20) not null);
+
+create table Employee(EmployeeID varchar(4) primary key check (EmployeeID like 'E%'), EmployeeName varchar(20) not null, 
+salary int check (salary>10000), dept_id varchar(4) not null, City varchar(30) check (City in ('Ahmedabad', 'Surat', 'Mumbai')), 
+country varchar(30) default 'India', JoiningDate date, foreign key (dept_id) references Department(dept_id));
+
+
+
+-- Data Entry
+insert into Department values('D001', 'IT');
+insert into Department values('D002', 'HR');
+insert into Department values('D003', 'Sales');
+
+insert into Employee values('E001', 'Dhyey', 20000, 'D001', 'Ahmedabad', 'India', '2010-01-01');
+insert into Employee values('E002', 'Nityam', 30000, 'D001', 'Surat', 'India', '2010-01-01');
+insert into Employee values('E003', 'Yash', 40000, 'D002', 'Mumbai', 'India', '2010-01-01');
+insert into Employee values('E004', 'Vishwa', 50000, 'D002', 'Ahmedabad', 'India', '2010-01-01');
+insert into Employee values('E005', 'Yugam', 60000, 'D002', 'Surat', 'India', '2010-01-01');
+
+-- 2
+select * from Department;
+select * from Employee;
+select DepartmentName from Department where (dept_id) not in (select dept_id from Employee);
+
+-- 3 
+select EmployeeName from Employee where dept_id = (select dept_id from Department where DepartmentName = 'HR');
+
+-- 4 
+select DepartmentName, count(EmployeeID) from Department, Employee where Department.dept_id = Employee.dept_id group by DepartmentName;
+
+-- 5 
+select EmployeeName from Employee where salary = (select max(salary) from Employee where salary < (select max(salary) from Employee));
+
+-- 6
+select EmployeeName, City from Employee where City = 'Surat' and dept_id = (select dept_id from Department where DepartmentName = 'HR');
+select * from Employee inner join Department on Department.dept_id = Employee.dept_id;
+
+-- 7
+alter table Employee rename column City to Employee_city;
