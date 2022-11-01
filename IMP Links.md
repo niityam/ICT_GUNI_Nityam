@@ -1,9 +1,11 @@
 //////////////////////////SEM 3/////////////////////////////
+
 All Subject Detailed Syllabus:
 https://docs.google.com/viewer?a=v&pid=sites&srcid=aWN0LmdudS5hYy5pbnxzaXRlbmV3c3xneDozNjc1NWE2MmRkM2UzYTcz
 
 
 ///////////////////////////COMMON///////////////////////////
+
 Site News:
 https://sites.google.com/a/ict.gnu.ac.in/sitenews/home
 
