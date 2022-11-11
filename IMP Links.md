@@ -4,10 +4,8 @@ All Subject Detailed Syllabus:
 https://docs.google.com/viewer?a=v&pid=sites&srcid=aWN0LmdudS5hYy5pbnxzaXRlbmV3c3xneDozNjc1NWE2MmRkM2UzYTcz
 
 
----------------------------COMMON---------------------------------
 
-Site News:
-https://sites.google.com/a/ict.gnu.ac.in/sitenews/home
+---------------------------COMMON---------------------------------
 
 Academic Calendar:
 https://ict.guni.ac.in/academic/sem-iii
@@ -26,3 +24,15 @@ https://ict.guni.ac.in/programmes/after-12th-undergraduate-courses/engineering-t
 
 Syllabus All:
 https://ict.guni.ac.in/courses
+
+
+----------------------Site News-------------------------------------
+
+Old Exam Papers :
+https://sites.google.com/a/ict.gnu.ac.in/gnu-ict-student-portal/Exam-Section
+
+Home Page : 
+https://sites.google.com/a/ict.gnu.ac.in/gnu-ict-student-portal/site-news
+
+Recent Announcement :
+https://sites.google.com/a/ict.gnu.ac.in/sitenews/home
