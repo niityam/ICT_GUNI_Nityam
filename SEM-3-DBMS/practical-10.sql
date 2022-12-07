@@ -92,7 +92,7 @@ INSERT INTO `customer` (`Id`, `FirstName`, `LastName`, `City`, `Country`, `Phone
 (75, 'Art', 'Braunschweiger', 'Lander', 'USA', '(307) 555-4680'),
 (76, 'Pascale', 'Cartrain', 'Charleroi', 'Belgium', '(071) 23 67 22 20'),
 (77, 'Liz', 'Nixon', 'Portland', 'USA', '(503) 555-3612'),
-(78, 'Liu', 'Wong', 'Butte', 'USA', '(406) 555-5834'),
+(78, 'Liu', 'Wong', 'Butte', 'USA', '(406) 555-5834'), 
 (79, 'Karin', 'Josephs', 'Münster', 'Germany', '0251-031259'),
 (80, 'Miguel', 'Angel Paolino', 'México D.F.', 'Mexico', '(5) 555-2933'),
 (81, 'Anabela', 'Domingues', 'Sao Paulo', 'Brazil', '(11) 555-2167'),
