@@ -1,14 +1,12 @@
------------------------------SEM 3-------------------------------
+-----------------------------SEM 4-------------------------------
 
 All Subject Detailed Syllabus:
 https://docs.google.com/viewer?a=v&pid=sites&srcid=aWN0LmdudS5hYy5pbnxzaXRlbmV3c3xneDozNjc1NWE2MmRkM2UzYTcz
 
-
+Academic Calendar:
+https://ict.guni.ac.in/academic/sem-iv
 
 ---------------------------COMMON---------------------------------
-
-Academic Calendar:
-https://ict.guni.ac.in/academic/sem-iii
 
 External Exam Time Table: 
 https://ict.guni.ac.in/about/external-exam-calendar
