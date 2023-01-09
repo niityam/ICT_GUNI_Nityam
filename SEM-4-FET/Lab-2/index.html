@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sounds</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="hero">
+        <div class="navbar">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">GENRE</a></li>
+                <li><a href="#">YEAR</a></li>
+                <li><a href="#">SINGER</a></li>
+                <li><a href="#">ALBUM</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 left">
+                        <h1>THE <br> REAL <br> MUSIC</h1>
+                    </div>
+                    <div class="col-md-5 right">
+
+                        <div class="card bg-transparent  text-white text-center" style="width: 18rem;">
+                            <img src="images/ballet.jpg" class="card-img-top" alt="..." width="100%">
+                            <div class="card-body">
+                              <h5 class="card-title light">The Ballet Girl</h5>
+                              <p id="prevnext" style="font-size: small;"></p>
+
+                              <img id="prevb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAWVJREFUaEPtmOGNwjAMRsMSXo9jM9iEebLEnSJRqQoJtp99opXS3/3c9+w2iXopJ78uJ+cvS+DbE1wTWBMIdmC9QsEGhuNrAqMW1lrvpZRfEbl5Wkxy6RN4QVxf4HerBM2lCnQQW/NVCZprD0gTmECoEjS3FU4RUCDasx4i8tN/DzS3rxMWoBA01zchJEAhaG60omEBCkFzs+UYCVAImvu0l7gFKATNaRuhS4BC0JwG79oHKATNWeDNAhSC5qzwJgEKQXMe+CyB4VnHIKCekSwypo+YwtCcBdx9FqIwNGeVME1gK0ZhaM4i4RJoBSkMzWkSboGjSSCBI0lggaNIhASOIBEW+LZEioBB4iYi7V/R26WsTtOceyPTlrMPEirERELNmc5CFvD9PR2MCWIgb86lvUKdxLOU0g5rw9dm1pRaqzv3LwLeqUXuXwKR7mVk1wQyuhipsSYQ6V5Gdk0go4uRGqefwB/1ihhA7aaPsAAAAABJRU5ErkJggg=="/>
+                              <img src="images/play.png" id="icon">
+                              <img id="nextb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAW1JREFUaEPtl8ENAiEQRccOPFGHJdiJWplagSXYD5ctYA8aEjYxKyx/PptljHjmz77HQBh38uO/3Y/zSxdo3cHegd6Byh3oR6hyA6vj/9UB7/1NRF7OuYtm69gc8g24AxHiFIveUAk2h8CHNZDADGKqXZRgcyg8JJCBKEqwOQ38GgKhRrITBYFsbnWBUJCFYXMaCegOWJaABaxKqAQsSqgFrElQApYkaAErElUCFiSqBVpLbCVwd86d5w8U8NAlc591qgVYCDY334QqARaCzaVGDFqAhWBzufmIEmAh2NzScKcSGIZhP47jQ0SOC0W/Lh6bQ6ZSWCBCPEXkQMCrcwg89IcmLLIKDwlYhi8KWIcvCsQxIbyg18yZzL6U3nsqh579aR10iTMwxWeezWkkIIFEJ4rwE8RMAs6hErDAh8QxNZgtfTBKqHOIhEoAKbj1mi6w9Y6vOk63hofeAQuQq02jFmX6JW7dld6B1h14A1fUNEBienjgAAAAAElFTkSuQmCC"/>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="services" class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-5">
+                    <br> <br>
+                    <h2>I Want SONGS!!</h2>
+                    <p>Subscribe now & Get the best music experience</p>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4 ">
+                    <div class="card rounded-0 border text-center py-5 px-3">
+                        <div>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAtVJREFUaEPtmtFxGyEQhndHKuBm4N7tDpQKEnUQVxCrgtgVRK4gdgWWK4g7iF1B3IH1Lpi5POs0ZHYGTTIa62A5wMSGl3sA9vbbnwWOA+GdFXxnvFCB37riVeGUCkspPwHAVwCgJ5UHALhRStEzS8mmsJTyGwAsj1AtlVJXOYizAFtlfzqA5jmUTgrctu3MGPMFAM4BoBkCNsasEfEeEe82m81TKrWTAFtFaQjvc5XrP+X0VQrFowI3TdNMJpPviEiKji7GmNVut7vsuq4bbcwaiAZsh+8tAMxiOWftPCHiItYwjwJsYWlSGszTEYHoEHEeA3o0cAbYfZyiQI8CppydTqfPCZU9HBRd3/enY3J6FHDbtiu77IwYrbyuxpgbrfUFr9ff1sHAnpuJUL9c/YI3KWOAaZIKXWddQK76B6XU3NXopfogYDtR/Qp5Yaw+iPghZNYOBc6eu4eBCs3lIGAhxDMinsRSK8QO7b211qfcvmzgpmlO7FLEfVf09naJWnMMs4FfeXY+ZGPP1mxgIcQ5ItKe+dWLMWahtV5xHGEDSynp1II+/Uoo9Al57BTlRf8qsEu2qrArQmnr65B2xbfmsCtCNYddEUpbX3PYFd+aw64I1Rx2RShtfZYc/gEAn9NyeFu/V0qdebcG4F15EELcxvqNwnFyqC39jtFaL3zteU9aJcLuITnQXsAlw3KhncBCiGtEpGsKxRefg71B4MKOc3wDPnjs4wIu6XTDF3hwqarA/4axsF1VVfhIBC6VUtfHojM4pEs6dPeU93ff97Ou644ezjuXJQtNW8lU1xk8WdzN+r5fDcGSBSew+zX/V4sKHFMvKSVdMPvItPmolEr2oz2pwoE7NfYPMk5AkwKTI5yLL/aeZZRbfEHLEidyQ219oHPAZp2l6V4IAFwYY+jmwD6vHxFxvd1ul67lJFbwkw/pWI7GslOBY0WyVDtV4VKVieXXH9TUSkxYZQhiAAAAAElFTkSuQmCC"/>
+                        </div>
+                        <h5 class="text-uppercase mt-4 mb-3">Register Now</h5>
+                        <p>Register Now to get the notification for every new song released.</p>
+                        <button type="submit" class="btn btn-outline-secondary" onclick="window.location='#'">Register</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border text-center py-5 px-3">
+                        <div>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAA6lJREFUaEPtmt1RGzEQx3exec7NnPwcUkFIBTEVQAchFcRUAKkgpgKgAtxBTAXBFQSerZucn61hM8voPJfLfUg62dYZa8ZPlk766a+VdldCeGMF3xgv7IF3XfG9wm0VjqIo6vf79wAwBIBHRLxdLpd3aZqmbb/to713hYUQEwA4LRnchIgmSZLc+Ri46zfWAUwNg0kZHBHvpJRT14G7ttsG8GqsRPSEiBOl1HWapk+uEDbttgpcGOhG7D0k4Dz/2ux9U8AniHhORGcA8M5iCXq3940ASylX/cRxfI6IDF62k1fOhS973zhwRqTP63MA4N9HC9W5qrO9bw04DxhF0VGv1xtp5d9bwlvZexDAeUAhxLCFvV8kSXJbN2HBAecH62LviPhpPp8/VkEHDexo79+llFedBra0990CLiz5MSJ+K6i5u8BCCF66l3vgXbLhwhG2VxgA9jacXxWdOIerztSNbFqDweCYiFaRDkcxBwcHs8y7EUL8l+LJR0uWfnJt9bUCCyEuiYhDu6OyUTA4AFxxlrL4f6eAWdGXl5f7KlATxToDrJfvTwCITMCq6nQCWAfov9vC8iR0AngwGNwS0Zc2ymZtgwfWS/mXD9hOKBzHcVkU4swfvMJCCL4C+exMWGjYBeA/PjarzthwmbfURm1Xhfmk6PV6pwUfYKqUmvH1qzdPSwjBd7k2NwR18/EspSz1zqoa6U2TA3tO2JcWInr16DjD2ToB4NmGH6SUfDluVIQQPwBgZFS5vJJ9eCiE4A65Yx/lQko5NvlQHMc3JYqZNM3XsQfmm4B+v89eVuuilPpgcvdbYY8u/dsDcy8+zmIiuk6SpHF5+pxg54yH9qX5PLa96MpUmSmlhiaPWWrehWxOYe5J75b8SMX2gutZwzY+Y9ATy+e+r+K2pLPe9YAY2tTzelBKnZkoy33w5RkAcAjqq7QDzkYRx/EZInJatGqJz4joKkkSnhzj4vlE4H79ABcU57zWqzOBiE9KqUdTRYsz4XF3zj7tF9hYOsOKvhUmoq91d8Te07SGnKtqa7Dhk7oHb1sH1huXL999IaWszb8FAewrncTPGefzeTGY+GfRBQGsPS1+ptAmQlsopY6b3NgggLUry0n+G9s9IKvftFll9YIB1tCuubTaoyg/iUEB55TmcNJkeS+IaNT0VCloYB4cu7OHh4fjmreZC352vFwuR7YOT3AKF21YBzB81LDPPUXEtO4dVtMeEDxwE4Dt/3tg2xnrWv2/KvJHW4TTHhwAAAAASUVORK5CYII="/></div>
+                        <h5 class="text-uppercase mt-4 mb-3">Get The Music</h5>
+                        <p>Love to hear same song muliple time, Buy now and listen forever.</p>
+                        <button type="submit" class="btn btn-outline-secondary"onclick="window.location='#'">Get</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border text-center py-5 px-3">
+                        <div>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAA/RJREFUaEPtmb1uE0EQx2dt95xyY6gQzhOQlAgkkp5A0iIkwgPwkY6G74aOAA9AIiHqkNCTSCDKJE+QICrwbDj6sxdtdJF8l117P24tn+Mr7b29+c1/b+a/ewzO2MXOGC9MgMdd8YnCE4XHLAPKJY2Iz1ScjLEEAHba7fZeVfOgAxYDgLbTNF1KkkQmoFKXK7CE3COi2UrRAqj7MCIOUviYUwhxj3O+ViVoH4Ul8CHnfHocgJ9rIFTFbJ6Itl2hEXEOAK4X7t/xmbNfLFbGAxElWC44xth6u91e9gCWyS0m8gUR6ZLu+qjj+6yA4zheZox9KD4xTdPpJEkOXSJBxNEFlkCIKMEuFeCcFakC8ClFfIrXyANHUdRqNBoHxeXr2qJGHliCNpvNNSHE3QL0NhHN277HlQDOWsnXMopXJYB1xUvXokydm+nqICKr7tI7r/ONmhaVZC0qt6kYC+AoiqJGoyFb1LneDKqKV2hg1XY2TdN1lTdwVlhXvFQtKiSwZqX9S9O0pdq+egHrWhQA5Px1SGBE3ACAW7n3tI/d9QLOipeXv/ap0qYJL6VonUzi6699gDX3/iSilq7ieyvs6699gOM4PmCMFeFWiGg1NLCzv3YFdjU/pSjs469dgTX29jMRLZZ2ANBvIld/7QKceYC/ig3MEudcVm3tVYrC2Xssj2qs/bULsK73ElE0yJ6WBmzrr08Cy95FmazeS+68tOdkiLgLADMFh/eWc/5oqMA2/npQYLr/m83mjBBCAucu02OmUhW28deuwHEcrzLGHhbu3yeinOJB21Lv5Kri5XMEVAwcEWWxyr2rNqctpSosg3Oxe6Zq224UVPOWDpwVr1P+GgDkb84H9lnwssfmlq7tuXgQYJ2/NlXScpzVl48gwLoWZQliMrzvRmFoSzoDVn1RMIGwGdN3ozBU4KxFyXf2sg2Bxdj9NE3nbD/KB1vSWcWO6vX6omILZ8F1eqhsc51OZ8MWVs4UFNiLKtDNE+CyE4uIbwDgtvzwCAA/AOA1EX2xeQ4i3gCAxwBwBQAIAD4R0YrNHCdjgyqMiJsAsKAIbMEUOoPdUsyxRUQ3baGDAfcJVMb4nYiumQSLiN8A4KpmrHHigiuMiE8A4KUm0C4R1Q2BOwBQ04x9SkSvTOYJDhzH8X3G2DtNMH+I6IJJoIj4GwDOq8YKIR5wzt+bzBMceGpq6mKtVpPfnlTqrJoWnazoqU4yut1ut3V0dPRrJIBlEHEc35G7mQK0dbFRFL+u/CDPOf9oAzsU4yGVZoxJtyU37bum1bkIkhXBWSFEIoTYsFU2+JK2zfywxgdrS8MCsH3OBNg2Y1UbP1G4aorZxnvmFP4PSzc3W6Etc+QAAAAASUVORK5CYII="/></div>
+                        <h5 class="text-uppercase mt-4 mb-3"> Subscribe</h5>
+                        <p>Subscirbe Now & Enjoy any song any number of time accordingly.</p>
+                        <button type="submit" class="btn btn-outline-secondary" onclick="window.location='#'">Subscirbe</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mb-4">
+                    <div class="card rounded-0 border text-center py-5 px-3">
+                        <div>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAr5JREFUaEPtmjGLE0EUx/9vCIeVYHYSolZioY2mOLCysFOw0C8glteKghZncYciisWBlVjeJ9BGtLG0ODhEsTgLQQQ17L6JINh4YUcia6NJdmZ3MrObbMrk5b33e2+y7C8JYcketGS8aIAXfePNhpsNL9gEmiO9YAv9D6fZcLPhBZvA1CMtpbxIRH2t9UqdmIloH8CbJEmeT+p7InAURbeI6H6dQCf0epOZH/77/ERgKeU3AL2aA39l5qOmwF8AHKkzsNb6k1LqmBFwFEV3iOh2nYEBbDDzphEwgBUp5VsAJ2sKvcfMfQC/TIHR7XZPp2m6C6BVM+iREGI1juN3xlfpv4GdTmdda323TsBEtJ4kyb1pPefdWgop5Q6A1ZpA7zLzGQBpUeDx0T6epul7AAcqDv1TCNGP4/jjrD7zNvznvVLKNQCPKw68xsxP8no0Ah4niaLoBRGdz0sY4nWt9Uul1AWT2sbAvV6vMxqNPgA4ZJLYY8z3Vqt1YjAYJCY1jYGzLV8ioqcmiX3FaK0vK6WemdazAs4+z9sArpgWmGccEW0nSXLVpoY1cLvdPiiE2ANw2KbQHGI/p2l6ajgc/rDJbQ2cbfkcgFdAsF8utBDibBzHr21gx7GFgDPoLQDXbAs6it9i5utFchUGDigYU8XAZABlgEMIxkwxmDvwuIBPwcgTAy/AAHwJRq4Y+AL2IRhGYuANOLtqz1MwjMTAK3B26+lcMGzEwDvwHATDSgy8A7sWDFsxCALsSjCKiEEwYAeCUUgMggGXFIzCYhAUuIRgFBaD4MAFBKOUGFQB2EYwSotBJYBNBcOFGFQG2EAwnIhBlYBnCYYzMagU8AzBcCYGlQPObj3H/x+5AWBfa/1IKfXApFFXMaW+4nHVhM88DbDPaYeo1Ww4xNR91mw27HPaIWo1Gw4xdZ81l27DvwGxiw5Mt9wMvwAAAABJRU5ErkJggg=="/> </div>
+                        <h5 class="text-uppercase mt-4 mb-3">Trial</h5>
+                        <p>Wanna, Test our services before purchasing ? We have trial option. </p>
+                        <button type="submit" class="btn btn-outline-secondary"onclick="window.location='#'">Trial</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Services section exit -->  
+
+    <audio id="mysong">
+        <source src="images/The Ballet Girl Song Aden Foyer.mp3" type="audio/mp3">
+    </audio>
+    
+    <script>
+
+        var mysong = document.getElementById("mysong");
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+            if(mysong.paused){
+                mysong.play();
+                icon.src = "images/pause.png";
+            }else{
+                mysong.pause();
+                icon.src = "images/play.png";
+            }
+        }
+
+        prevb.onclick = function(){
+                document.getElementById("prevnext").innerHTML = "Subscribe Now to play more songs";
+        }
+        nextb.onclick = function(){
+                document.getElementById("prevnext").innerHTML = "Subscribe Now to play more songs";
+        }
+
+        function hrefFunc(){
+                windows.location.href = "https://classroom.google.com/u/2/w/NTQwOTg2MzU3NTE1/t/all";
+            }
+    </script>
+
+
+</body>
+</html>
