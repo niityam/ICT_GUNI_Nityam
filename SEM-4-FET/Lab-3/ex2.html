@@ -1,0 +1,18 @@
+<p id="demo"></p>
+<script>
+    alert("Welcome to Nityam's Wesbite")
+      let nat = prompt("Enter your Nationality");
+      let vac = prompt("How many vaccine you have received ?")
+      if (vac >= 2) {
+        document.getElementById("demo").innerHTML =
+        "You have received " + vac + " vaccine, You don't need more vaccine";
+      }
+      else if (vac==1){
+        document.getElementById("demo").innerHTML =
+        "You have received " + vac + " vaccine,  need 1 more vaccine";
+      }
+      else if (vac==0){
+        document.getElementById("demo").innerHTML =
+        "You have received " + vac + " vaccine,  need 2 more vaccine";
+      }
+ </script>
