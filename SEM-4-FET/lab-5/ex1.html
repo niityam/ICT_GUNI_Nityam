@@ -1,0 +1,19 @@
+<script>
+    var x = prompt("Enter Number")
+    var total =0;
+    for (var i = 1; i < x; i++) {
+        x % i == 0 ? total += i : total += 0;
+    }
+    if (total == x && ((x+total)/2) == x) {
+        alert(x+"Perfect Number & Proper Positive Divisor");
+    }
+    else if (total == x) {
+        alert("Perfect Number");
+    }
+    else if (((x+total)/2) == x) {
+        alert("Proper Positive Divisor");
+    }
+    else{
+        alert("NOT Perfect Number & NOT Proper Positive Divisor");
+    }
+</script>
