@@ -14,7 +14,6 @@ def fn2(val, randnum):
 
 
 if(int(val) == int(randnum)):
-    print(randnum)
     print("You Won $10,000. The Random Number was",randnum)
 
 elif(fn2(val, randnum) == 2):
