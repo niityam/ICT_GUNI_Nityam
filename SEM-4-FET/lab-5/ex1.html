@@ -1,19 +1,36 @@
 <script>
-    var x = prompt("Enter Number")
-    var total =0;
-    for (var i = 1; i < x; i++) {
-        x % i == 0 ? total += i : total += 0;
-    }
-    if (total == x && ((x+total)/2) == x) {
-        alert(x+"Perfect Number & Proper Positive Divisor");
-    }
-    else if (total == x) {
-        alert("Perfect Number");
-    }
-    else if (((x+total)/2) == x) {
-        alert("Proper Positive Divisor");
+    var x = parseInt(prompt("Enter Number"));
+    if (checkPerfect(x) == 1) {
+        alert(x+" is a Perfect Number");
     }
     else{
-        alert("NOT Perfect Number & NOT Proper Positive Divisor");
+        var temp = 0, y=x;
+        for(y = x; y<=8128; y++){
+            console.log(y)
+            if (checkPerfect(y) == 1) {
+                temp =1;
+                break;
+            }
+        }
+        if(temp == 1){
+            alert("Nearest Perfect Number After "+ x + " is: "+ y)
+        }
+        else{
+            alert(x + " is to big to check for Next Perfect.")
+        }
+        
+    }
+
+    function checkPerfect(z){
+        var total = 0;
+        for (var i = 1; i < z; i++) {
+            z % i == 0 ? total += i : total += 0;
+        }
+        if (total == z ) {
+            return 1;
+        }
+        else{
+            return 0;
+        }
     }
 </script>
