@@ -16,7 +16,7 @@ https://ict.guni.ac.in/about/internal-exam-calendar
 Result:
 https://result.ganpatuniversity.ac.in/
 
-Syllabus BDA:
+Syllabus BDA/ Credit of Subjects:
 https://ict.guni.ac.in/programmes/after-12th-undergraduate-courses/engineering-technology/bachelor-of-technology-in-computer-science-engineering-big-data-and-analytics/syllabus
 
 Syllabus All:
