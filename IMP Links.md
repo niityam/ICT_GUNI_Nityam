@@ -1,6 +1,13 @@
 -----------------------------SEM 4-------------------------------
-
-All Subject Detailed Syllabus:
+Syllabus:
+  Probability & Statistics: https://d1prjjs37junl3.cloudfront.net/subject/probability-statistics/2cse401-probability-statistics.pdf
+  
+  Operating System: https://d1prjjs37junl3.cloudfront.net/subject/operating-system/2cse402-operating-system.pdf
+  
+  Functional Programming: https://d1prjjs37junl3.cloudfront.net/subject/functional-programming/2cse403-functional-programming.pdf
+  
+  Software Engineering: https://d1prjjs37junl3.cloudfront.net/subject/software-engineering/2cse501-software-engineering.pdf
+  
 
 Academic Calendar:
 https://ict.guni.ac.in/academic/sem-iv
