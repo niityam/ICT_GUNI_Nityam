@@ -1,0 +1,20 @@
+<p id = "text"></p>
+<script>
+    const employees = [
+  { name: "Ved Patel", workingDays: 22 },
+  { name: "Manthan Mehta", workingDays: 25 },
+  { name: "Naman Soni", workingDays: 20 },
+  { name: "Zeel Kalaria", workingDays: 28 },
+  { name: "Mohit Patel", workingDays: 24 }
+];
+
+function salary (workingDays, ratePerDay) {
+  return workingDays * ratePerDay;
+}
+
+employees.forEach(employee => {
+  const employeeSalary = salary(employee.workingDays, 200);
+  document.getElementById("text").innerHTML += `${employee.name}'s salary: $${employeeSalary} <br>`;
+});
+
+</script>
