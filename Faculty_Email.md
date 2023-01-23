@@ -14,4 +14,6 @@ Sejal Patel : sp03@ganpatuniversity.ac.in
 
 Umesh Laktariya : ul01@ganpatuniversity.ac.in
 
+sgb01@ganpatuniversity.ac.in
+
 (ADMIN)Kaushik Patel : admin.cms@ganpatuniversity.ac.in
