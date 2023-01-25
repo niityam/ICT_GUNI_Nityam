@@ -1,0 +1,11 @@
+<script>
+    var data = [ NaN, 0, 15, false, -22, '', undefined, 47, null]
+    var data2 = [];
+    for(var i = 0; i < data.length; i++){
+        if ( Number.isInteger(data[i]) && data[i] != 0)
+        {
+            data2.push(data[i]);
+        }
+    }
+    console.log(data2);
+</script>
