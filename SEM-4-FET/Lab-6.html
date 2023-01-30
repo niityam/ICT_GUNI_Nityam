@@ -8,4 +8,17 @@
         }
     }
     console.log(data2);
+
+    function shuffleArray(array) {
+        for (var i = array.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            console.log("J: ", j, "I: ", i)
+            var temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+    }
+    shuffleArray(data2);
+    alert(data2);
+
 </script>
