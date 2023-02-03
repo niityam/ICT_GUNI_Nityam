@@ -1,4 +1,4 @@
-clc;
+clc; 
 clear all;
 n = input("Enter number of trials: ");
 a=randi([0,1],1,n)
