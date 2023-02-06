@@ -1,0 +1,23 @@
+<script>      
+    function myDisplay(op) {
+        alert("Kayo is " + op);
+    }
+    healthy = prompt("Kayo are you fine ?");
+    let myPromise = new Promise((resolve, reject) => {
+        cakes = Math.floor((Math.random()*8)+1);
+        if (healthy == "yes" || healthy == "Yes" || healthy == "YES") {
+            resolve('Healthy');
+        }
+        else {
+            reject('Sick')
+        }
+    })
+    .then(function(value){
+    setTimeout(function() { alert(`I have ${cakes} Cakes and I am Happy`); }, 3000);})
+
+    .catch(function(error){
+        alert("There is no cake and I am sad")})
+
+    .finally(function(){alert("I will have a party")}
+    )
+</script>
