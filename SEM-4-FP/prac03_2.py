@@ -17,12 +17,18 @@ sum = days.index((input("Enter Day")))
 
 for x in range(1, 13):
     print(months[x-1],"1," , days[(sum)%7])
-    if(x%2 == 1):
-        sum = sum + 31
-    elif(x == 2):
-        if(year%4 == 0):
-            sum = sum + 29
-        else:
-            sum = sum + 28
-    elif(x%2 == 0):
-        sum = sum + 30
+    if(x<=7):
+        if(x%2 == 1):
+            sum = sum + 31
+        elif(x == 2):
+            if(year%4 == 0):
+                sum = sum + 29
+            else:
+                sum = sum + 28
+        elif(x%2 == 0):
+            sum = sum + 30
+    else:
+        if(x%2 == 1):
+            sum = sum + 30
+        elif(x%2 == 0):
+            sum = sum + 31
