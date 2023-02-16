@@ -20,12 +20,12 @@ def name_v(name, address, pincode, mobileno, hobby, lifegoals, age):
             name_v(name, address, pincode, mobileno, hobby, lifegoals, age)
             return 0
         
-        if(x in pincode or len(pincode)!=6):
+        if(x in pincode or len(pincode)!=6 or pincode.isnumeric() == False):
             pincode = input("Pincode Invalid, Enter Again")
             name_v(name, address, pincode, mobileno, hobby, lifegoals, age)
             return 0
 
-        if(x in mobileno or len(mobileno)!=10):
+        if(x in mobileno or len(mobileno)!=10 or mobileno.isnumeric() == False):
             mobileno = input("Mobile Number Invalid, Enter Again")
             name_v(name, address, pincode, mobileno, hobby, lifegoals, age)
             return 0
@@ -46,14 +46,6 @@ def name_v(name, address, pincode, mobileno, hobby, lifegoals, age):
             return 0
 
 name_v(name, address, pincode, mobileno, hobby, lifegoals, age)
-
-print("Name: ",name)
-print("Address: ",address)
-print("Pincode: ",pincode)
-print("Mobile Number: ",mobileno)
-print("Hobby: ",hobby)
-print("Life Goals: ",lifegoals)
-print("Age: ",age)
 
 if(age<=18):
     print("You will get minority scholarship")
