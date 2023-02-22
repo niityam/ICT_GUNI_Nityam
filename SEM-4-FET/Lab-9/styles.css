@@ -1,0 +1,15 @@
+.body{
+    background-color: #efebfc;
+    padding: 20%;
+}
+.collapsible{
+    background-color: #93c9ed;
+    border-radius: 3px;
+}
+.text{
+    border-style: solid;
+    border-color: #0474c4;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 10px;
+}
