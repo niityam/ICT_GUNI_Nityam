@@ -1,3 +1,5 @@
+Note: Don't Read whole article on website, just read the topic you find it important.
+
 Process Management
 ------------------
 Programs Vs Process Vs Thread: https://www.geeksforgeeks.org/difference-between-process-and-thread/ 
