@@ -2,7 +2,7 @@ Note: Don't Read whole article on website, just read the topic you find it impor
 
 Process Management
 ------------------
-Programs Vs Process Vs Thread: https://www.geeksforgeeks.org/difference-between-process-and-thread/ 
+Programs Vs Process Vs Thread: https://javaconceptoftheday.com/differences-between-program-vs-process-vs-threads/ or https://www.geeksforgeeks.org/difference-between-process-and-thread/ 
 
 Process State Transition diagram: https://www.javatpoint.com/os-process-states
 
