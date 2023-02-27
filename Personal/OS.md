@@ -1,6 +1,7 @@
 Note: Don't Read whole article on website, just read the topic you find it important.
 
 For Practicals: https://www.youtube.com/playlist?list=PLlr7wO747mNp5nn0hteJFnt1rpdx6GG-_
+
 Process Management
 ------------------
 Programs Vs Process Vs Thread: https://javaconceptoftheday.com/differences-between-program-vs-process-vs-threads/ or https://www.geeksforgeeks.org/difference-between-process-and-thread/ 
