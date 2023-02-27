@@ -41,7 +41,7 @@ OS as a Resource Manager: https://www.tutorialspoint.com/how-does-the-operating-
 
 Kernel Data Structures: https://www.tutorialspoint.com/Kernel-Data-Structures or Linked List, BST, Hash Map
 
-introduction to various subsystem: 
+Introduction to various subsystem: 
 
 Micro Kernel: https://www.youtube.com/watch?v=mz5eM6eiMEY
 
