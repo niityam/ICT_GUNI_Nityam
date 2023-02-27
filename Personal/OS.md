@@ -20,9 +20,7 @@ Short term , medium term and Long term schedulers: https://www.geeksforgeeks.org
 
 First- Come, First-Served (FCFS) Scheduling
 
-Shortest-Job-First (SJF) Scheduling
-
-Shortest-remaining-time-first
+Shortest-Job-First (SJF) Scheduling, Shortest-remaining-time-first
 
 Priority Scheduling
 
