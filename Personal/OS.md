@@ -26,3 +26,11 @@ Multilevel Feedback Queue
 
 
 Process synchronization issue: https://www.guru99.com/process-synchronization.html 
+
+
+Linux Kernel - Designer Perspective
+-----------------------------------
+
+Introduction to UNIX system kernel, major building blocks: https://www.geeksforgeeks.org/introduction-to-unix-system/
+
+Dual Mode of nature: https://www.geeksforgeeks.org/dual-mode-operations-os/
