@@ -35,4 +35,8 @@ Introduction to UNIX system kernel, major building blocks: https://www.geeksforg
 
 Dual Mode of nature: https://www.geeksforgeeks.org/dual-mode-operations-os/
 
-**Processing environment**: The environment is simply a list of environment variables. Every process inherits the list of environment variables exported by the parent process, and the process may optionally add its own variables to this list. An environment variable contains a variable length string of characters.
+Processing environment: The environment is simply a list of environment variables. Every process inherits the list of environment variables exported by the parent process, and the process may optionally add its own variables to this list. An environment variable contains a variable length string of characters.
+
+OS services: https://www.geeksforgeeks.org/operating-system-services/
+
+System calls: https://www.geeksforgeeks.org/introduction-of-system-call/
