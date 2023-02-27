@@ -60,3 +60,5 @@ Principles of concurrency: https://www.youtube.com/watch?v=QZin--mg2n8 and https
 Signals: https://www.youtube.com/watch?v=m0tUe0PgGCs
 
 Shared memory: https://www.youtube.com/watch?v=uHtzOFwgD74
+
+Pipe: https://www.youtube.com/watch?v=wQUY2W49xjQ
