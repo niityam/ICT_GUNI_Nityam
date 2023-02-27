@@ -65,4 +65,4 @@ Pipe: https://www.youtube.com/watch?v=wQUY2W49xjQ
 
 Mutual Exclusion, Critical Section: https://www.youtube.com/watch?v=qMQsd7Iy5jo
 
-Semaphores: https://www.youtube.com/watch?v=eoGkJWgxurQ
+Semaphores: https://www.youtube.com/watch?v=eoGkJWgxurQ and https://www.youtube.com/watch?v=l5-3mbBV1BQ
