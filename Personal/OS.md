@@ -48,3 +48,8 @@ Kernel Data Structures: https://www.tutorialspoint.com/Kernel-Data-Structures or
 introduction to various subsystem: 
 
 Micro Kernel: https://www.youtube.com/watch?v=mz5eM6eiMEY
+
+Principles of concurrency
+-------------------------
+
+Inter Process Communications: https://www.youtube.com/watch?v=QZin--mg2n8 and https://www.javatpoint.com/concurrency-in-operating-system
