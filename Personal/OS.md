@@ -19,11 +19,17 @@ Job Scheduling Vs CPU scheduling: https://www.differencebetween.com/difference-b
 Short term , medium term and Long term schedulers: https://www.geeksforgeeks.org/difference-between-short-term-medium-term-and-long-term-scheduler/
 
 First- Come, First-Served (FCFS) Scheduling
+
 Shortest-Job-First (SJF) Scheduling
+
 Shortest-remaining-time-first
+
 Priority Scheduling
+
 Round Robin (RR)
+
 Multilevel Queue Scheduling
+
 Multilevel Feedback Queue
 
 
