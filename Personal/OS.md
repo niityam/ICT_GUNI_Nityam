@@ -1,4 +1,5 @@
 Note: Don't Read whole article on website, just read the topic you find it important.
+For Practicals: https://www.youtube.com/watch?v=ybvbDlsDdk4&list=PLlr7wO747mNp5nn0hteJFnt1rpdx6GG-_
 
 Process Management
 ------------------
