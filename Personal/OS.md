@@ -40,3 +40,5 @@ Processing environment: The environment is simply a list of environment variable
 OS services: https://www.geeksforgeeks.org/operating-system-services/
 
 System calls: https://www.geeksforgeeks.org/introduction-of-system-call/
+
+OS as a Resource Manager: https://www.tutorialspoint.com/how-does-the-operating-system-act-as-a-resource-manager-and-extended-machine
