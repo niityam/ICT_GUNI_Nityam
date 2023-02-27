@@ -53,3 +53,5 @@ Principles of concurrency
 -------------------------
 
 Inter Process Communications: https://www.youtube.com/watch?v=QZin--mg2n8 and https://www.javatpoint.com/concurrency-in-operating-system
+
+Signals: https://www.youtube.com/watch?v=m0tUe0PgGCs
