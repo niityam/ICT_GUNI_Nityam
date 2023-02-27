@@ -49,9 +49,10 @@ introduction to various subsystem:
 
 Micro Kernel: https://www.youtube.com/watch?v=mz5eM6eiMEY
 
-Principles of concurrency
+Inter Process Communications: 
 -------------------------
+Inter Process Communications: https://www.youtube.com/watch?v=dJuYKfR8vec
 
-Inter Process Communications: https://www.youtube.com/watch?v=QZin--mg2n8 and https://www.javatpoint.com/concurrency-in-operating-system
+Principles of concurrency: https://www.youtube.com/watch?v=QZin--mg2n8 and https://www.javatpoint.com/concurrency-in-operating-system
 
 Signals: https://www.youtube.com/watch?v=m0tUe0PgGCs
