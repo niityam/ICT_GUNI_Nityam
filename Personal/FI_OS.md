@@ -18,6 +18,8 @@ Job Scheduling Vs CPU scheduling: https://www.differencebetween.com/difference-b
 
 Short term , medium term and Long term schedulers: https://www.geeksforgeeks.org/difference-between-short-term-medium-term-and-long-term-scheduler/
 
+Process Scheduling Solver: https://boonsuen.com/process-scheduling-solver
+
 
 ![image](https://user-images.githubusercontent.com/78067067/221654502-957b1c2d-6c2e-414c-99e5-7bbdf178ea1e.png)
 
