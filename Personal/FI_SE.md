@@ -115,4 +115,45 @@ RAD Model: Rapid Application Development
 
 ![image](https://user-images.githubusercontent.com/78067067/222533739-7e14ddcf-ccef-41df-b37b-078ce9722074.png)
 
-Suits for Fixed requirements, Short Timeframe, No Budget constraints, Expensive tools are use
+Suits for Fixed requirements, Short Timeframe, No Budget constraints, Expensive tools are used, Skilled employee works, Mostly works on data
+
+1. Business Modelling: The information flow among business functions is defined by answering questions like what data drives the business process, what data is generated, who generates it, where does the information go, who process it and so on.
+
+2. Data Modelling: The data collected from business modeling is refined into a set of data objects (entities) that are needed to support the business. The attributes (character of each entity) are identified, and the relation between these data objects (entities) is defined.
+
+3. Process Modelling:  The information object defined in the data modeling phase are transformed to achieve the data flow necessary to implement a business function. Processing descriptions are created for adding, modifying, deleting, or retrieving a data object.
+
+4. Application Generation: Automated tools are used to facilitate construction of the software; even they use the 4th GL techniques.
+
+5. Testing & Turnover: Many of the programming components have already been tested since RAD emphasis reuse. This reduces the overall testing time. But the new part must be tested, and all interfaces must be fully exercised.
+
+V Model: One side development is done other side testing happens, Things happens in parallel, equirements are well defined, clearly documented and fixed, The project is short.
+
+Not a good model for complex and object-oriented projects, Poor model for long and ongoing projects, No working software is produced until late during the life cycle.
+
+Big Bang:
+This is a very simple model
+Little or no planning required
+Easy to manage
+Very few resources required
+Gives flexibility to developers
+It is a good learning aid for new comers or students.
+Any changes required may or may not need to revamp the complete software.
+
+Very High risk and uncertainty.
+Not a good model for complex and object-oriented projects.
+Poor model for long and ongoing projects.
+Can turn out to be very expensive if requirements are misunderstood.
+This model is ideal for small projects with one or two developers working together and is also useful for academic or practice projects
+
+Project Management Activities
+Project planning and Tracking,
+Project Resource Management,
+Scope Management,
+Estimation Management,
+Project Risk Management,
+Scheduling Management,
+Project Communication Management,
+Configuration Management
+
+
