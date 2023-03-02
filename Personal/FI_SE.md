@@ -105,3 +105,14 @@ Why not to use: Complex Management, End project not known, Could be Infinite.
 
 4. Agile Model:
 
+![image](https://user-images.githubusercontent.com/78067067/222532523-86430b6e-e419-4f5b-a640-6f48c23b9b90.png)
+
+Realistic Approach, Team work, Developed Rapidly, Suitable for Fixed & Changing requrirement, Easy to manage, Long projects.
+
+Not suitable for complex dependencies, Leader or PM is must, Strict deadlines must follow, Low Documentation
+
+RAD Model: Rapid Application Development
+
+![image](https://user-images.githubusercontent.com/78067067/222533739-7e14ddcf-ccef-41df-b37b-078ce9722074.png)
+
+Suits for Fixed requirements, Short Timeframe, No Budget constraints, Expensive tools are use
