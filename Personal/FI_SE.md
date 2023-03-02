@@ -60,20 +60,41 @@ SDLC Models
 
 Seen Steady Downward Flow, One phase act as a input to other phase. 
 
-When to use: Requrirement are clearly defined, No need to change in requrirement in future, Project is Short, .
+Why to use: Requrirement are clearly defined, No need to change in requrirement in future, Project is Short, .
 
-Not to use: Not good for Longterm/ Complex projects, Where requirement are not cleared, One way (We can't move to back stage after one stage is completed).
+Why Not to use: Not good for Longterm/ Complex projects, Where requirement are not cleared, One way (We can't move to back stage after one stage is completed).
 
 Note: No customer Interaction until project is completed, Required gathering one time.
 
-Incremental Model:
+2. Incremental Model:
 
 ![image](https://user-images.githubusercontent.com/78067067/222526374-bb713b0c-bcc1-4efa-963b-b567b08db2dd.png)
 
-When to use: Requrirement are clearly defined.
+Why to use: Requrirement are clearly defined.
 
-When not to use: More resources are required, Not suitable for changing requrirement, Not good for smalled projects
+Why not to use: More resources are required, Not suitable for changing requrirement, Not good for smalled projects
 
-Note: Required gathering one time, Major Functionality Defined only minor changes allowded, New Technology is used, Customer attention is required.
+Note: Required gathering one time, Major Functionality Defined only minor changes allowded, New Technology is used, More Customer Interaction.
 
 
+3. Prototype Model
+
+![image](https://user-images.githubusercontent.com/78067067/222527961-d92c2c70-6987-426d-bb52-457296135878.png)
+
+Prototyping is used to evaluate developer proposals and try them out before implementation. Help to understand requirements better. 
+
+Why to use: Where Requirement are not clear, More Customer Interaction, Better understading of project to use before development, Reduce cost (Defect can be detected earlier), missing functionality can be identified
+
+Why not to use: Insufficient Requirement analysis leads to depend more on prototype, Scope could expand, Efforts to build prototype could be too much.
+
+Spiral:
+
+![image](https://user-images.githubusercontent.com/78067067/222529840-ffcfca87-3d44-41d9-82d7-cff2a735dbf6.png)
+
+1. Requirements are gathered from the customers and the objectives are identified, at the start of every phase.
+
+2. During the second quadrant, all the possible solutions are evaluated to select the best possible solution. Risks are resolved using the best possible strategy. At the end of this quadrant, the Prototype is built for the best possible solution.
+
+3. During the third quadrant, the identified features are developed and verified through testing. At the end of the third quadrant, the next version of the software is available.
+
+4. In the fourth quadrant, the Customers evaluate the so far developed version of the software. In the end, planning for the next phase is started.
