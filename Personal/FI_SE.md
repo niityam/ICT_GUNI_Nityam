@@ -1,4 +1,6 @@
-SDLC: The Software Development Life Cycle (SDLC) is a structured process used by software development teams to plan, design, develop, test, deploy, and maintain software products. , defining, design, coding, testing, deployment, and maintenance.
+Software Development Life Cycle (SDLC)
+---------------------------------------
+It is a structured process used by software development teams to plan, design, develop, test, deploy, and maintain software products. , defining, design, coding, testing, deployment, and maintenance.
 
 The purpose of SDLC is to ensure that the software product meets the customer's requirements, is delivered on time and within budget, and is of high quality and maintainable over its lifetime.
 
@@ -48,5 +50,30 @@ Once the software is certified, and no bugs or errors are stated, then it is dep
 7. Maintainance:
 
 Once when the client starts using the developed systems, then the real issues come up and requirements to be solved from time to time.
+
+SDLC Models
+------------
+
+1. Waterfall
+
+![image](https://user-images.githubusercontent.com/78067067/222524885-a1ac3f77-06c0-4b22-bb1b-ff0ea83a3549.png)
+
+Seen Steady Downward Flow, One phase act as a input to other phase. 
+
+When to use: Requrirement are clearly defined, No need to change in requrirement in future, Project is Short, .
+
+Not to use: Not good for Longterm/ Complex projects, Where requirement are not cleared, One way (We can't move to back stage after one stage is completed).
+
+Note: No customer Interaction until project is completed, Required gathering one time.
+
+Incremental Model:
+
+![image](https://user-images.githubusercontent.com/78067067/222526374-bb713b0c-bcc1-4efa-963b-b567b08db2dd.png)
+
+When to use: Requrirement are clearly defined.
+
+When not to use: More resources are required, Not suitable for changing requrirement, Not good for smalled projects
+
+Note: Required gathering one time, Major Functionality Defined only minor changes allowded, New Technology is used, Customer attention is required.
 
 
