@@ -98,3 +98,10 @@ Spiral:
 3. During the third quadrant, the identified features are developed and verified through testing. At the end of the third quadrant, the next version of the software is available.
 
 4. In the fourth quadrant, the Customers evaluate the so far developed version of the software. In the end, planning for the next phase is started.
+
+Why to use: Combination of Waterfall + Iterative Model, Risk Evaluation Important, Long Term Project, Customer Not sure of Requirement, Requirements are complex, Good for large projects, Customer Interaction required
+
+Why not to use: Complex Management, End project not known, Could be Infinite.
+
+4. Agile Model:
+
