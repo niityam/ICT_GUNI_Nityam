@@ -1,0 +1,120 @@
+<section id="s\courseservices" class="services_wrapper">
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-12 text-center mb-5">
+                <h2>{{prod_clicked}}</h2>
+                <input class="form-control" type="text" placeholder="Issued Date: {{currentDate | date:'yyyy-MM-dd'}}" readonly>
+            </div>
+            <div class="col-sm-12">
+                <h3>General Details</h3>
+                <div class="col-auto">
+                    <!-- <label class="sr-only" for="inlineFormInputGroup">Username</label> -->
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend col-sm-6">
+                            <div class="input-group-text">Lot Number</div>
+                        </div>
+                        <input type="number" class="form-control" id="inlineFormInputGroup" placeholder="" value="10001"
+                            #lotno>
+                    </div>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend col-sm-6">
+                            <div class="input-group-text">Lot Size</div>
+                        </div>
+                        <input type="number" class="form-control" id="inlineFormInputGroup" placeholder="" value="250"
+                            #lotsize>
+                    </div>
+
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend col-sm-6">
+                            <div class="input-group-text">Issued By</div>
+                        </div>
+                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" #issued>
+                            <option selected>Choose...</option>
+                            <option value="Dhiraj">Dhiraj</option>
+                            <option value="Milan">Milan</option>
+                            <option value="Dharmendra">Dharmendra</option>
+                            <option value="Dharmendra">Mayank</option>
+                        </select>
+                    </div>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend col-sm-6">
+                            <div class="input-group-text">Checked By</div>
+                        </div>
+                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" #checked>
+                            <option selected>Choose...</option>
+                            <option value="Dhiraj">Dhiraj</option>
+                            <option value="Milan">Milan</option>
+                            <option value="Dharmendra">Dharmendra</option>
+                            <option value="Dharmendra">Mayank</option>
+                        </select>
+                    </div>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend col-sm-6">
+                            <div class="input-group-text">Approved By</div>
+                        </div>
+                        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" #approved>
+                            <option selected>Choose...</option>
+                            <option value="Dhiraj">Dhiraj</option>
+                            <option value="Milan">Milan</option>
+                            <option value="Dharmendra">Dharmendra</option>
+                            <option value="Dharmendra">Mayank</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- <button>Save To Firebase</button> -->
+                <input class="btn btn-secondary" type="button" value="Save Data"
+                    (click)="saveBatch(lotno.value, lotsize.value, issued.value, checked.value, approved.value)">
+            </div>
+            <h3 style="margin-top: 40px;">Raw Material Details</h3>
+            <div class="col-sm-6 my-4" *ngFor="let p of allRMs;">
+                <div class="col-auto">
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend col-sm-6">
+                            <div class="input-group-text">Raw Material: </div>
+                        </div>
+                        <input class="form-control" type="text" placeholder="{{p.name}}" value="{{p.name}}" readonly
+                            #rm>
+                    </div>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend col-sm-6">
+                            <div class="input-group-text">Std. Qty: </div>
+                        </div>
+                        <input class="form-control" type="number" placeholder="{{p.quantity}} Kg" value="{{p.quantity}}"
+                            readonly #stdQ>
+                    </div>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend col-sm-6">
+                            <div class="input-group-text">A.R. No:</div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder=""
+                            value="ZQQC182772" #ar1>
+                    </div>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend col-sm-6">
+                            <div class="input-group-text">A.R. No 2:</div>
+                        </div>
+                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder=""
+                            value="ZQQC182772" #ar2>
+                    </div>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend col-sm-6">
+                            <div class="input-group-text">Req. Qty:</div>
+                        </div>
+                        <input type="number" class="form-control" id="inlineFormInputGroup" placeholder=""
+                            value="{{p.quantity}}" #reqQ>
+                    </div>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend col-sm-6">
+                            <div class="input-group-text">Issue Qty:</div>
+                        </div>
+                        <input type="number" class="form-control" id="inlineFormInputGroup" placeholder=""
+                            value="{{p.quantity}}" #issQ>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-outline-secondary"
+                    (click)="saveRM(rm.value, stdQ.value, ar1.value, ar2.value, reqQ.value, issQ.value)" >Save</button>
+            </div>
+            <button type="button" class="btn btn-primary" routerLink="/genpdf">Generate PDF</button>
+        </div>
+    </div>
+</section>

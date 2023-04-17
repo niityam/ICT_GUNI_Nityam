@@ -1,0 +1,56 @@
+<!-- Bootstrap 5 CDN Links -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<!-- Services section -->
+<section id="services" class="services_wrapper">
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <img src="assets/ambition_logo.png" alt="" width="200px">
+                <p style="margin-top: 35px;">Select the product to start the batch</p>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card rounded-0 border-1 text-center py-5 px-3">
+                    <div>
+                        <img src="assets/icon_meds_6.png" width="100px">
+                    </div>
+                        <h5 (click)="change('RIBOFLAVIN')" routerLink="/batch" (click)="scrol(target)"  class="text-uppercase mt-4 mb-3">Riboflavin</h5>
+                    <p>Batch Time: 48Hrs</p>
+                    <p>Employee Needed: 18</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card rounded-0 border-1 text-center py-5 px-3">
+                    <div>
+                        <img src="assets/icon_meds_3.png" width="100px">
+                    </div>
+                    <a href=""></a>
+                    <h5 (click)="change('FERROUS ASCORBATE')" routerLink="/batch" (click)="scrol(target)" class="text-uppercase mt-4 mb-3">Ferrous Ascorbate</h5>
+                    <p>Batch Time: 9Hrs</p>
+                    <p>Employee Needed: 6</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card rounded-0 border-1 text-center py-5 px-3">
+                    <div>
+                        <img src="assets/icon_meds_4.png" width="100px">
+                    </div>
+                    <h5 class="text-uppercase mt-4 mb-3" (click)="scrol(target)">Choline Bitartrate </h5>
+                    <p>Batch Time: 12Hrs</p>
+                    <p>Employee Needed: 7</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="card rounded-0 border-1 text-center py-5 px-3">
+                    <div >
+                        <img src="assets/icon_meds_5.png" width="100px">
+                    </div>
+                    <h5 class="text-uppercase mt-4 mb-3" (click)="scrol(target)">Chlorhexidine</h5>
+                    <p>Batch Time: 4Hrs</p>
+                    <p>Employee Needed: 4</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section >
+<div #target></div>
+<!--Services section exit -->

@@ -1,0 +1,80 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<div class="container text-center">
+    <div class="col-sm-3 my-3">
+        <img src="assets/ambition_logo.png" alt="" width="200px">
+    </div>
+    <ul class="list-group ">
+        <li class="list-group-item">20210 Golana Road, Sokhada, Khambhat, Gujarat, India</li>
+        <li class="list-group-item fw-bold">Batch Production and Control Record</li>
+        <li class="list-group-item">Batch Manufacturing Instructions of Ferrous Ascorbate</li>
+    </ul>
+    <div class="row my-2">
+        <div class="col-sm-6 text-center ">
+            <div class="input-group mb-2">
+                <div class="input-group-prepend col-sm-6">
+                    <div class="input-group-text">Date: </div>
+                </div>
+                <input class="form-control" type="text" value="{{currentDate | date:'yyyy-MM-dd'}}" readonly>
+            </div>
+            <div class="input-group mb-2">
+                <div class="input-group-prepend col-sm-6">
+                    <div class="input-group-text">Lot Number</div>
+                </div>
+                <input class="form-control" type="text" value="{{lotno_v}}" readonly>
+            </div>
+            <div class="input-group mb-2">
+                <div class="input-group-prepend col-sm-6">
+                    <div class="input-group-text">Lot Size</div>
+                </div>
+                <input class="form-control" type="number" value="{{lotsize_v}}" readonly>
+            </div>
+        </div>
+        <div class="col-sm-6 text-center">
+            <div class="input-group mb-2">
+                <div class="input-group-prepend col-sm-6">
+                    <div class="input-group-text">Issued By</div>
+                </div>
+                <input class="form-control" type="text" value="{{issued_v}}" readonly>
+            </div>
+            <div class="input-group mb-2">
+                <div class="input-group-prepend col-sm-6">
+                    <div class="input-group-text">Checked By</div>
+                </div>
+                <input class="form-control" type="text" value="{{checked_v}}" readonly>
+            </div>
+            <div class="input-group mb-2">
+                <div class="input-group-prepend col-sm-6">
+                    <div class="input-group-text">Approved By</div>
+                </div>
+                <input class="form-control" type="text" value="{{approved_v}}" readonly>
+            </div>
+        </div>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">Raw Material</th>
+                <th scope="col">Std Qty</th>
+                <th scope="col">AR No. 1</th>
+                <th scope="col">AR No. 2</th>
+                <th scope="col">Req Qty</th>
+                <th scope="col">Issued Qty</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let d of rmDetails">
+                <td>{{d.rm}}</td>
+                <td>{{d.stdQ}}</td>
+                <td>{{d.ar1}}</td>
+                <td>{{d.ar2}}</td>
+                <td>{{d.reqQ}}</td>
+                <td>{{d.issQ}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div >
+        <button type="button" class="btn btn-primary" style="margin-right: 5px;" (click)="print()" *ngIf="showBtn">Generate PDF</button>
+        <button type="button" class="btn btn-primary" style="margin-right: 5px;" routerLink="/batch" *ngIf="showBtn">Back</button>
+        <button type="button" class="btn btn-primary"  routerLink="" *ngIf="showBtn">Home Page</button>
+    </div>
+</div>
