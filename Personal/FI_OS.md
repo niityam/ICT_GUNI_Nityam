@@ -66,26 +66,13 @@ Semaphores: https://www.youtube.com/watch?v=eoGkJWgxurQ and https://www.youtube.
 Monitors: https://www.youtube.com/watch?v=rz5CKJHhalU
 
 
-MID 2 SYLLABUS
---------------------------------------------------------------
-2: Buffer Caching
-
-Need of buffers, access buffers, Buffer headers, buffer Pools, retrieval of buffers for reading and writing, Reading and Writing to Disk blocks 
-
-
-3: File Systems 
-
-Internal Representation of Files, inodes, accessing inodes, structure of files and directories, Concept of Super Blocks, organization and access of files, directories, file sharing, record blocking, secondary storage management, system calls for the file systems
-
-5: Inter Process Communications 
-
-(Principles of concurrency,signals, shared memory, pipe, mutual exclusion, semaphore, monitors), message passing, reader’s writers problem, deadlock, prevention, avoidance, detection, dining philosophers problem.
-
-6: Memory Management 
-
-System Memory Layout, Logical Vs Physical Address Spaces, Memory operations, partitioning, paging, segmentation, virtual memory, swapping, hardware and control structure
+MID 2
+---------------------------------------------------------------------------------------------------------------
+Inter Process Communications
+-----------------------------
+deadlock, prevention, avoidance, detection, dining philosophers problem: https://drive.google.com/file/d/1g5duowGLkEOP9q9GfVd94vaUv3fXy33T/view
 
 
-7: Input Output System
+Buffer Caching
+---------------
 
-Device Drivers Interfaces, Drivers entry points, Algorithms for accessing devices, Memory mapped I/O, system calls for I/O, Device Interrupts and Interrupts handlers
